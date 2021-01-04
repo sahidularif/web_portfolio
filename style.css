@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
+    margin: 0%;
 }
 .welcome{
     
@@ -18,8 +19,15 @@ h1{
     float: left;
     margin-left: 5%;
     padding-left: 2%;
-    border:1px solid red;
+    
+    
 }
 .half_width img{
     width: 100%;
+}
+.top_banner{
+    background-image: url("images/top-banner.png");
+    height: 500px;
+    background-repeat: no-repeat;
+
 }
