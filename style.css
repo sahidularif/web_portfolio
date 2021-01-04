@@ -1,0 +1,25 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.welcome{
+    
+    font-family: 'Redressed', cursive;
+}
+
+h1{
+   
+    font-size: 50px;
+}
+.name-heighlight{
+    color:orangered;
+}
+.half_width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    border:1px solid red;
+}
+.half_width img{
+    width: 100%;
+}
