@@ -11,7 +11,13 @@ h1{
    
     font-size: 50px;
 }
-.name-heighlight{
+h2{
+    font-size: 40px;
+}
+p{
+    color:dimgray;
+}
+.orange_heighlight{
     color:orangered;
 }
 .half_width{
@@ -27,26 +33,48 @@ h1{
     background-image: url("images/top-banner.png");
     height: 500px;
     background-repeat: no-repeat;
+    
 }
-
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
 .hire_me{
     text-decoration: none;
     color:white;
     background-image:linear-gradient(45deg,rgb(240, 173, 161),rgb(219, 35, 35));
     padding: 10px 20px;
     border-radius: 10px;
-    font-weight: bold;    
+    font-weight: 700;    
 }
 
-.mid_half_width{
-    width: 40%;
-    float: left;
-    margin-left: 5%;
-    padding-left: 2%; 
+.dream_area{
+background-image: url("images/dream-bg.png") ;
+background-repeat: no-repeat;
+background-position: right;
 }
-.mid_half_width img{
-    width:100%;
+.single_experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 70%;
+    background-color: white;
 }
-.middle_banner{
-    height: 500px;
+.experience_area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full_stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+}
+#baby_web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size:12px;
 }
