@@ -1,10 +1,10 @@
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0%;
 }
 .welcome{
     
-    font-family: 'Redressed', cursive;
+    font-family: 'Poppins', sans-serif;
 }
 
 h1{
@@ -18,9 +18,7 @@ h1{
     width: 40%;
     float: left;
     margin-left: 5%;
-    padding-left: 2%;
-    
-    
+    padding-left: 2%;    
 }
 .half_width img{
     width: 100%;
@@ -29,5 +27,26 @@ h1{
     background-image: url("images/top-banner.png");
     height: 500px;
     background-repeat: no-repeat;
+}
 
+.hire_me{
+    text-decoration: none;
+    color:white;
+    background-image:linear-gradient(45deg,rgb(240, 173, 161),rgb(219, 35, 35));
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;    
+}
+
+.mid_half_width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%; 
+}
+.mid_half_width img{
+    width:100%;
+}
+.middle_banner{
+    height: 500px;
 }
